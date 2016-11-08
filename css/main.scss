@@ -56,184 +56,70 @@ $color-cat-13: #f94;
 	}
 }
 
-.category-1 {
+// Set div colours
+
+@mixin set-div-color ($div-color) {
 	> .image > .cover {
-		border-color: $color-cat-1;
+		border-color: $div-color;
 
 		h3 {
-			color: $color-cat-1;
+			color: $div-color;
 		}
 	}
 
 	> a > .image > .cover {
-		background-color: $color-cat-1;
+		background-color: $div-color;
 	}
+}
+
+.category-1 {
+	@include set-div-color($color-cat-1);
 }
 
 .category-2 {
-	> .image > .cover {
-		border-color: $color-cat-2;
-
-		h3 {
-			color: $color-cat-2;
-		}
-	}
-
-	> a > .image > .cover {
-		background-color: $color-cat-2;
-	}
+	@include set-div-color($color-cat-2);
 }
 
 .category-3 {
-	> .image > .cover {
-		border-color: $color-cat-3;
-
-		h3 {
-			color: $color-cat-3;
-		}
-	}
-
-	> a > .image > .cover {
-		background-color: $color-cat-3;
-	}
+	@include set-div-color($color-cat-3);
 }
 
 .category-4 {
-	> .image > .cover {
-		border-color: $color-cat-4;
-
-		h3 {
-			color: $color-cat-4;
-		}
-	}
-
-	> a > .image > .cover {
-		background-color: $color-cat-4;
-	}
+	@include set-div-color($color-cat-4);
 }
 
 .category-5 {
-	> .image > .cover {
-		border-color: $color-cat-5;
-
-		h3 {
-			color: $color-cat-5;
-		}
-	}
-
-	> a > .image > .cover {
-		background-color: $color-cat-5;
-	}
+	@include set-div-color($color-cat-5);
 }
 
 .category-6 {
-	> .image > .cover {
-		border-color: $color-cat-6;
-
-		h3 {
-			color: $color-cat-6;
-		}
-	}
-
-	> a > .image > .cover {
-		background-color: $color-cat-6;
-	}
+	@include set-div-color($color-cat-6);
 }
 
 .category-7 {
-	> .image > .cover {
-		border-color: $color-cat-7;
-
-		h3 {
-			color: $color-cat-7;
-		}
-	}
-
-	> a > .image > .cover {
-		background-color: $color-cat-7;
-	}
+	@include set-div-color($color-cat-7);
 }
 
 .category-8 {
-	> .image > .cover {
-		border-color: $color-cat-8;
-
-		h3 {
-			color: $color-cat-8;
-		}
-	}
-
-	> a > .image > .cover {
-		background-color: $color-cat-8;
-	}
+	@include set-div-color($color-cat-8);
 }
 
 .category-9 {
-	> .image > .cover {
-		border-color: $color-cat-9;
-
-		h3 {
-			color: $color-cat-9;
-		}
-	}
-
-	> a > .image > .cover {
-		background-color: $color-cat-9;
-	}
+	@include set-div-color($color-cat-9);
 }
 
 .category-10 {
-	> .image > .cover {
-		border-color: $color-cat-10;
-
-		h3 {
-			color: $color-cat-10;
-		}
-	}
-
-	> a > .image > .cover {
-		background-color: $color-cat-10;
-	}
+	@include set-div-color($color-cat-10);
 }
 
 .category-11 {
-	> .image > .cover {
-		border-color: $color-cat-11;
-
-		h3 {
-			color: $color-cat-11;
-		}
-	}
-
-	> a > .image > .cover {
-		background-color: $color-cat-11;
-	}
+	@include set-div-color($color-cat-11);
 }
 
 .category-12 {
-	> .image > .cover {
-		border-color: $color-cat-12;
-
-		h3 {
-			color: $color-cat-12;
-		}
-	}
-
-	> a > .image > .cover {
-		background-color: $color-cat-12;
-	}
+	@include set-div-color($color-cat-12);
 }
 
 .category-13 {
-	> .image > .cover {
-		border-color: $color-cat-13;
-
-		h3 {
-			color: $color-cat-13;
-		}
-	}
-
-	> a > .image > .cover {
-		background-color: $color-cat-13;
-	}
+	@include set-div-color($color-cat-13);
 }

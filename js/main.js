@@ -1,4 +1,5 @@
-var boardID = "SUqESEk1";
+// Replace XXXXXXXX with the ID of your board
+var boardID = "XXXXXXXX";
 
 var get_board = Trello.boards.get(boardID, function(board){
 
