@@ -1,11 +1,13 @@
-# trello-managed-cms
-A resource card website using Trello as a CMS. All you need is a Trello account and a board. This project is only setup for handling public boards, though could be altered to expose private boards (which I don't recommend).
+# gatsby-starter-default
+The default Gatsby starter
 
-## Resource Cards
-This project allows you to quickly setup and maintain a resource list in the style of https://marketingstack.io/.
+For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
 
-## Getting going
-1) Make a Trello account at https://trello.com/  
-2) Get yourself a Trello API key - https://developers.trello.com/  
-3) Make your board public (click on the Visibility button towards the top left of your board)  
-4) Add your board's ID to main.js (this is in the URL)
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+```
+gatsby new gatsby-example-site
+```
+
+## Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
